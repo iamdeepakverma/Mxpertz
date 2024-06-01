@@ -1,0 +1,60 @@
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+.btn_class{
+    min-width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: aqua;
+    outline: none;
+    border: none;
+    transition: 0.5s;
+}
+.btn_class:hover{
+    transform: scale(1.1);
+    background-color: rgb(169, 172, 172);
+
+}
+.main_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 50px 0 50px;
+}
+ul{
+    display: flex;
+    column-gap: 25px;
+}
+li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 800;
+    transition: 0.4s;
+}
+li:hover{
+    color: #ea1111;
+    cursor: pointer;
+}
+h1{
+    font-size: 30px;
+    font-weight: 800;
+    color: #ea1111;
+}
+.heading_div{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.bttonall_class{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.class_btn{
+    min-width: 150px;
+}
